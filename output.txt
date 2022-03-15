@@ -1,0 +1,43 @@
+Feature: ebayTest
+
+  Scenario:
+  ? Given Login to ebay
+  ? When Search and select product
+      | abc |
+  ? Then Remove the first from card
+
+Warnings:
+
+1) Scenario:  - features\ebayTest.feature:5
+   Step: Given Login to ebay - features\ebayTest.feature:6
+   Message:
+     Undefined. Implement with the following snippet:
+
+       this.Given(/^Login to ebay$/, function (callback) {
+         // Write code here that turns the phrase above into concrete actions
+         callback(null, 'pending');
+       });
+
+2) Scenario:  - features\ebayTest.feature:5
+   Step: When Search and select product - features\ebayTest.feature:7
+   Message:
+     Undefined. Implement with the following snippet:
+
+       this.When(/^Search and select product$/, function (table, callback) {
+         // Write code here that turns the phrase above into concrete actions
+         callback(null, 'pending');
+       });
+
+3) Scenario:  - features\ebayTest.feature:5
+   Step: Then Remove the first from card - features\ebayTest.feature:10
+   Message:
+     Undefined. Implement with the following snippet:
+
+       this.Then(/^Remove the first from card$/, function (callback) {
+         // Write code here that turns the phrase above into concrete actions
+         callback(null, 'pending');
+       });
+
+1 scenario (1 undefined)
+3 steps (3 undefined)
+0m00.000s
